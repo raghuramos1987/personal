@@ -1,4 +1,4 @@
 personal
 ========
 
-random interesting interview questions
+random interesting questions

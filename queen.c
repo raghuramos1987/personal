@@ -39,10 +39,9 @@ int main()
         }
         if(x == temp)
         {
-            klist[x] = 0;
-            klist[x-1] = qpos[x-1]+1;
-            qpos[x-1] = -100;
-            x--;
+            klist[x--] = 0;
+            klist[x] = qpos[x]+1;
+            qpos[x] = -100;
         }
     }
     for(i=0;i<n;i++)

@@ -40,9 +40,9 @@ bool compy( const point& l, const point& r)
 
 Node* construct_tree(vector<point> inp, int ind)
 {
-    Node *root = new Node;
     if(inp.size() == 0)
         return NULL;
+    Node *root = new Node;
     int half = inp.size()/2;
     if (half)
     if(ind ==0)
